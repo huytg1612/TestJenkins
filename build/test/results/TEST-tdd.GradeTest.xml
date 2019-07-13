@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="SE130139" name="tdd.GradeTest" skipped="0" tests="1" time="0.066" timestamp="2019-07-13T11:27:30">
+<testsuite errors="0" failures="1" hostname="SE130139" name="tdd.GradeTest" skipped="0" tests="1" time="0.067" timestamp="2019-07-13T11:56:30">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="US" />
@@ -51,12 +51,12 @@
     <property name="user.name" value="Thien Phuc" />
     <property name="libs.jsf12.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
     <property name="libs.Comet-GlassFish-v3.javadoc" value="" />
-    <property name="tmp.manifest.file" value="E:\Ki4-Summer2019\SWE202\CheckTest\build\null1295577675" />
+    <property name="tmp.manifest.file" value="E:\Ki4-Summer2019\SWE202\CheckTest\build\null1778155797" />
     <property name="copylibs.rebase" value="true" />
     <property name="ant.file.type.CheckTest-impl" value="file" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner tdd.GradeTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Ki4-Summer2019\SWE202\CheckTest\build\test\results\TEST-tdd.GradeTest.xml crashfile=E:\Ki4-Summer2019\SWE202\CheckTest\build\junitvmwatcher3882120470755612708.properties propsfile=E:\Ki4-Summer2019\SWE202\CheckTest\build\junit122542487050714277.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner tdd.GradeTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\Ki4-Summer2019\SWE202\CheckTest\build\test\results\TEST-tdd.GradeTest.xml crashfile=E:\Ki4-Summer2019\SWE202\CheckTest\build\junitvmwatcher5747941640903471282.properties propsfile=E:\Ki4-Summer2019\SWE202\CheckTest\build\junit2277998314639144678.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -406,7 +406,7 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
   </properties>
-  <testcase classname="tdd.GradeTest" name="testPF" time="0.007">
+  <testcase classname="tdd.GradeTest" name="testPF" time="0.009">
     <failure message="expected:&lt;69&gt; but was:&lt;80&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;69&gt; but was:&lt;80&gt;
 	at tdd.GradeTest.testPF(GradeTest.java:20)
 </failure>

@@ -70,4 +70,21 @@
     nbproject/build-impl.xml file. 
 
     -->
+    <!-- Run jUnit -->
+    <target name="junit" depends="compile">
+
+        <junit printsummary="yes" haltonfailure="no">
+	
+            <classpath refid="test.path" />
+            <classpath location="${web.classes.dir}" />
+			
+            <formatter type="xml" />
+            <batchtest fork="yes" todir="${report.dir}">
+                <fileset dir="${test.dir}">
+                    <include name="**/*Test*.java" />
+                </fileset>
+            </batchtest>
+			
+        </junit>
+    </target>
 </project>
