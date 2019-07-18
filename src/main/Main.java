@@ -13,6 +13,6 @@ import tdd.GradeChecker;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("ahihi 10: " + GradeChecker.checkGrade(10));
+        System.out.println("ahihi 101: " + GradeChecker.checkGrade(10));
     }
 }
